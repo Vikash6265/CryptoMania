@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#cardImg:hover{
+    transform: scale(110%);
+    transition: ease-out 1s;
+}
+.cardColor:hover{
+   background-color: rgba(0, 255, 255, 0.744);
+}
+.main:hover{
+   transition: ease-out 1s;
+   color:rgba(0, 0, 139, 0.516);
+   font-weight: 650;
+}
+#cartBtn:hover{
+   color: white;
+}
+#logBtn:hover{
+    color: white;
+}
