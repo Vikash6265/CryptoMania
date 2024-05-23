@@ -61,7 +61,7 @@ const Register = () => {
   }
 
   return (
-    <Card sx={{border:'1px solid gray'}}>
+    <Card sx={{border:'1px solid gray',borderRadius:'15px'}}>
     <CardContent>
         <Typography variant='h5' align='center' sx={{paddingBlock:"15px"}}>Register Here</Typography>
         <form onSubmit={handleSubmit}>
@@ -69,7 +69,7 @@ const Register = () => {
             <TextField variant='outlined' label='Enter Email...' name='email' onChange={handleChange} sx={{margin:"6px 0px"}} fullWidth/>
             <TextField variant='outlined' label='Enter Password...' name='password' onChange={handleChange} sx={{margin:"6px 0px"}} fullWidth/>
             <TextField variant='outlined' label='Enter Confirm Password...' name='password2' onChange={handleChange} sx={{margin:"6px 0px"}} fullWidth/>
-            <Button variant='contained' color='success' type='submit' sx={{margin:"8px 0px"}} fullWidth>Save</Button>
+            <Button variant='contained' color='success' type='submit' sx={{margin:"8px 0px",borderRadius:'5px'}} fullWidth>Save</Button>
         </form>
     </CardContent>
    </Card>

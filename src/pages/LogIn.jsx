@@ -55,13 +55,13 @@ const LogIn = () => {
   };
 
   return (
-   <Card sx={{border:"1px solid gray"}}>
+   <Card sx={{border:"1px solid gray",width:'700px',borderRadius:'13px'}}>
     <CardContent>
       <Typography variant='h5' align='center' sx={{paddingBlock:"15px"}}>LogIn Here</Typography>
       <form onSubmit={handleSubmit}>
         <TextField variant='outlined' label="Enter Email..." name='email' onChange={handChange} sx={{margin:"7px 0px"}} fullWidth/>
         <TextField variant='outlined' label="Password..." name='password' onChange={handChange} sx={{margin:"7px 0px"}} fullWidth/>
-        <Button variant='contained' fullWidth color='success' type='submit' onChange={handChange} sx={{margin:"9px 0px"}}>Save</Button>
+        <Button variant='contained' fullWidth color='success' type='submit' onChange={handChange} sx={{margin:"9px 0px",borderRadius:'5px'}}>Save</Button>
       </form>
     </CardContent>
    </Card>

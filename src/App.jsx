@@ -17,7 +17,7 @@ const App = () => {
   return (
     <Router>
       <Navbar/>
-      <Container sx={{minHeight:"97vh",width:"100%",padding:"100px 0px",backgroundColor:"#9CAFAA"}} maxWidth="xl">
+      <Container sx={{minHeight:"100vh",width:"100%",padding:"100px 0px",backgroundColor:"#9CAFAA",display:'flex',alignItems:'center',justifyContent:'center',flexDirection:'column'}} maxWidth="xl">
        <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/LogIn' element={<LogIn/>}/>
